@@ -25,6 +25,13 @@ Algo como:
 <!-- Con 20 palabras estamos bien :) -->
 
 
+## Danos una breve bio acerca de tí (20 palabras o menos)
+<!-- La idea es que podamos usar esta información para presentarte.
+Algo como:
+'Soy Fulanito y trabajo como desarrollador en Fulano Labs me apasiona el desarrollo web frontend y mis hobbies son jugar PS4 y jugar futbol'
+ -->
+
+
 ## ¿Tienes alguna red social donde podamos contactarte?
 <!-- Twitter / Github / Facebook / Badoo / Myspace / Fotolog -->
 
