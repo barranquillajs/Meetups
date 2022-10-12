@@ -1,4 +1,4 @@
-# Meetup Septiembre 2022
+# Meetup Octubre 2022
 
 **Fecha:** Martes 11 de Octubre del 2022
 
