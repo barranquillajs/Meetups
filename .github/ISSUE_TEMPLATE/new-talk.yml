@@ -1,0 +1,56 @@
+name: Nueva Charla
+description: Postular nueva charla
+labels: ["talk"]
+body:
+  - type: dropdown
+    id: talk_type
+    attributes:
+      label: ¿Qué tipo de presentación quieres hacer?
+      options:
+        - Keynote (20 a 30 minutos)
+        - Lightning Talk (+- 5 minutos)
+        - Avisos de trabajo / comunidades / actividades / ETC.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Descripción de tu charla
+      placeholder: Danos una descripción de tu charla (20 palabras)
+    validations:
+      required: true
+  - type: textarea
+    id: bio
+    attributes:
+      label: Bio
+      placeholder: Danos una breve bio acerca de tí (20 palabras o menos)
+    validations:
+      required: true
+  - type: textarea
+    id: social
+    attributes:
+      label: ¿Tienes alguna red social donde podamos contactarte?
+      placeholder: Github, Instagram, X, etc..
+  - type: input
+    id: company
+    attributes:
+      label: ¿Representas a alguna compañía o empresa?
+  - type: checkboxes
+    id: tools
+    attributes:
+      label: ¿Qué tipo de conector tiene tu notebook?
+      options:
+        - label: USB-C
+        - label: HDMI
+        - label: Mini DisplayPort
+        - label: VGA
+    validations:
+      required: true
+  - type: textarea
+    id: anything_else
+    attributes:
+      label: ¿Quieres agregar algo más?
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por su postular tu charla, nos vemos pronto.
